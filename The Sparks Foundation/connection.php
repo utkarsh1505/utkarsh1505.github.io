@@ -8,8 +8,8 @@ $db = "id15696174_customerdetails";
 
 $con = mysqli_connect($server,$username,$password,$db);
 
-/*if($con)
-//echo "Connection successful";
+if($con)
+echo "Connection successful";
 {
     ?>
     <script>
@@ -21,4 +21,4 @@ else
 {
     echo "No connection";
     die("no connection".mysqli_connect_error());//exit
-}*/
+}
